@@ -1,1 +1,2 @@
-# odin-recipes
+# Odin Recipes
+In Odin Recipes we put into practice the HTML knowledge learnt from The Odin Project's curriculum by making a recipes website in which we make use of basic HTML elements such as `a`, for the purpose of linking recipes from the main page(index.html), header elements, such as `h1`, `p`, `ul`, `ol` and `li` for listing the ingredients and steps of each recipe.
