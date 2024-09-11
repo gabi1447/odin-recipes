@@ -2,33 +2,34 @@ body.recipe {
     background-color: #ffeae6;
 }
 
-h1 {
-    text-align: center;
-}
-
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: auto;
     width: 60%;
-    text-align: center;
 }
 
-.ingredients {
-    text-align: left;
-    display: flex;
-    justify-content: center;
-}
-
-.center {
-    margin: 0 auto;
-}
-
-p {
+ol, p, .container ul {
     width: 60%;
+    text-align: left;
+}
+
+ol li div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    margin: 1rem;
+    border-radius: 1rem;
 }
 
 .index {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Removing bullets from Index list */
